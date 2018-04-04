@@ -1,9 +1,12 @@
 ##02_Queimada
+
 #Objetivo:
 
 • Aprensentando a profundidade com um número como no vídeo da atividade.
 
-• Conte a quantidade de árvores queimadas através do retorno da recursão. Não use nenhum tipo de variável global. • Marque os locais por onde a recursão já voltou.
+• Conte a quantidade de árvores queimadas através do retorno da recursão. Não use nenhum tipo de variável global. 
+
+• Marque os locais por onde a recursão já voltou.
 
 
 
