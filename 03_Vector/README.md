@@ -2,15 +2,15 @@
 
 #Objetivo:
 
-*Complete os métodos do Vector que desenvolvemos em sala acrescentando
+• Complete os métodos do Vector que desenvolvemos em sala acrescentando
 
-*Faça o método reserve.
+• Faça o método reserve.
 
-*Conserte o método push_back para duplicar o espaço caso necessário. 
+• Conserte o método push_back para duplicar o espaço caso necessário. 
 faça os testes para verificar o funcionamento do seu código.
 
-    Nessa atividade aprendendo a mexer na estrutura de um vetor onde mexemos na memoria
-onde tivemos que alocar a memoria, usando algumas funções, 
+Nessa atividade aprendendo a mexer na estrutura de um vetor onde mexemos na memoria
+onde tivemos que alocar a memoria, usando algumas funções 
 em sala fizemos o push back e o pop back que ja tinhamos usados em outros codigos,
 a dificuldade foi fazer a função reserve, que era pra alocar memoria necessaria,
 quase um malloc que foi visto em c, ou um new int que ja é do c++ uma outro metodo
