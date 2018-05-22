@@ -114,10 +114,14 @@ int main()
                     amb.texto.erase(amb.cursor++);
                 }
                 else if(event.key.code == sf::Keyboard::Left){
-                    amb.cursor--;
+                    if(amb.cursor != amb.texto.begin())
+                        amb.cursor--;
+
+
                 }
                 else if(event.key.code == sf::Keyboard::Right){
-                    amb.cursor++;
+                    if(amb.cursor != amb.texto.begin())
+                        amb.cursor++;
                 }
             }
         }
