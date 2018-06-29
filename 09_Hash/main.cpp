@@ -33,7 +33,8 @@ struct Node {
 
 };
 
-
+// Aqui tem vetor de dados, a capacidade e a quantidade de elementos alocados que é o size
+//
 class Hash {
 
     Node * _data;
@@ -42,6 +43,7 @@ class Hash {
     int _qtd_removido;
 
 public:
+    //Construtor do hash
     Hash(int capacity){
 
         this->_capacity = capacity;
@@ -49,10 +51,10 @@ public:
         this->_size = 0;
         this->_qtd_removido = 0;
     }
-
+    //Destrutor do hash
     ~Hash(){
 
-        delete [] this->_data;
+        delete [] this->_data; //não perde a referencia, mas ele é tirado pra não usar de novo
         this->_data = nullptr;
 
     }
@@ -82,7 +84,7 @@ public:
 
         return false;
     }
-
+    // Se existir elemento ele vai remover
     bool remover(int value){
 
         int pos = search(value);
@@ -106,6 +108,8 @@ public:
         return false;
     }
 
+    // Pegar todos os elementos e reenserir com o dobro de capacidade
+    //Ou realoca pro mesmo tamanho pra livrar os removidos
     void reinserir_todos(int capacity){
 
         Node * aux = _data;
